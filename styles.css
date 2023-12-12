@@ -76,3 +76,30 @@ a{
     left: 400px;
     bottom: 180px;
 } */
+
+.beautiful, .construction {
+    display: inline-block; /* Aligns divs side by side */
+    width: 48%; /* Adjust the width as needed */
+    vertical-align: top; /* Aligns divs to the top */
+    margin: 1%; /* Adds some space around the divs */
+}
+
+.beautiful img, .construction img {
+    float: left;
+    margin-right: 20px; /* Space between the image and the text */
+    width: 30%; /* Adjust the image width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.btext, .constext {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: inline-block;
+    width: 65%; /* Adjust the width to fit the remaining space */
+}
+
+/* Clear the float */
+.beautiful:after, .construction:after {
+    content: "";
+    display: table;
+    clear: both;
+}
