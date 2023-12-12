@@ -1,24 +1,3 @@
-/* @media(min-width: 0px){
-    body{
-        background-color: orange
-    };
-}
-@media(min-width: 375px){
-    body{
-        background-color: bisque;
-    }
-}
-@media(min-width: 768px){
-    body{
-        background-color: aqua;
-    }
-}
-@media(min-width: 1024px){
-    body{
-        background-color: aquamarine;
-    }
-} */
-
 .logo{
     height: 15%;
     width: 15%;
@@ -35,71 +14,31 @@
 .blue{
     color: rgba(3, 3, 96, 0.872)
 }
-/* .beautiful{
+.beauty, .const{
+    height: 20%;
+    width: 250px;
     float: left;
+    margin-right: 30px;
+}
+
+.beautiful{
+    display: inline-block;
+    margin-left: 1.5%;
+    margin-right: 5%;
+    width: 650px;
 }
 .construction{
-    float: right;
-} */
-.beauty{
-    height: 20%;
-    width: 20%;
-    float: left;
-    margin-right: 30px;
-}
-.btext{
-    font-family: Georgia, 'Times New Roman', Times, serif;
     display: inline-block;
+    width: 650px;
+    margin-left: 1.5%;
 }
-.bea{
-    font-family: 'Poppins', sans-serif;
-}
-.const{
-    height: 20%;
-    width: 20%;
-    float: left;
-    margin-right: 30px;
-}
-.construct{
-    font-family: 'Poppins', sans-serif;
-}
-.constext{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-a{
-    display: block;
-    text-decoration: none;
-    /* transform: translate(50%, 60px); */
-}
-/* .construction{
-    position: relative;
-    left: 400px;
-    bottom: 180px;
-} */
-
-.beautiful, .construction {
-    display: inline-block; /* Aligns divs side by side */
-    width: 48%; /* Adjust the width as needed */
-    vertical-align: top; /* Aligns divs to the top */
-    margin: 1%; /* Adds some space around the divs */
-}
-
-.beautiful img, .construction img {
-    float: left;
-    margin-right: 20px; /* Space between the image and the text */
-    width: 30%; /* Adjust the image width as needed */
-    height: auto; /* Maintain aspect ratio */
-}
-
 .btext, .constext {
     font-family: Georgia, 'Times New Roman', Times, serif;
     display: inline-block;
-    width: 65%; /* Adjust the width to fit the remaining space */
 }
-
-/* Clear the float */
-.beautiful:after, .construction:after {
-    content: "";
-    display: table;
-    clear: both;
+a{
+    text-decoration: none;
+    position: fixed; /* Fixed positioning relative to the viewport */
+    bottom: 0;      /* Align bottom edge to the bottom of the viewport */
+    right: 0;  
 }
