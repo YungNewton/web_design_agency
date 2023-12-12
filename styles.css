@@ -35,6 +35,12 @@
 .blue{
     color: rgba(3, 3, 96, 0.872)
 }
+/* .beautiful{
+    float: left;
+}
+.construction{
+    float: right;
+} */
 .beauty{
     height: 20%;
     width: 20%;
@@ -65,3 +71,8 @@ a{
     text-decoration: none;
     /* transform: translate(50%, 60px); */
 }
+/* .construction{
+    position: relative;
+    left: 400px;
+    bottom: 180px;
+} */
