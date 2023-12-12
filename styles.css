@@ -18,3 +18,50 @@
         background-color: aquamarine;
     }
 } */
+
+.logo{
+    height: 15%;
+    width: 15%;
+    margin-top: 2%;
+    margin-left: 1.5%;
+}
+.hero{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 3%;
+    margin-left: 1.5%;
+    margin-bottom: 3%;
+    font-size: 25px;
+}
+.blue{
+    color: rgba(3, 3, 96, 0.872)
+}
+.beauty{
+    height: 20%;
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+}
+.btext{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: inline-block;
+}
+.bea{
+    font-family: 'Poppins', sans-serif;
+}
+.const{
+    height: 20%;
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+}
+.construct{
+    font-family: 'Poppins', sans-serif;
+}
+.constext{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a{
+    display: block;
+    text-decoration: none;
+    /* transform: translate(50%, 60px); */
+}
