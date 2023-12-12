@@ -1,0 +1,5 @@
+@media(max-height: 320px){
+    body{
+        background-color: orange
+    };
+}
