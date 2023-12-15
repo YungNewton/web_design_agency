@@ -148,3 +148,13 @@ a{
         bottom: -10px;
     }
 }
+
+.first, .second, .third{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+}
+body{
+    display: flex;
+    gap: 10px;
+}
