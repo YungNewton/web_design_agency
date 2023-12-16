@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(249, 249, 245);
+}
+.logo{
+    margin-top: 1.5rem;
+    margin-left: 2.5rem;
+}
+.hero{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    margin-left: 2.5rem;
+}
+.beauty, .const{
+    width: 19rem;
+    object-fit: cover;
+}
+.btext, .ctext{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.ad{
+    display: flex;
+    gap: 3rem;
+    margin: 3rem;
+}
+.beautiful, .construction{
+    display: flex;
+}
+.bea{
+    margin-left: 10px;
+}
+.btext, .constext {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    display: flex;
+    float: right; 
+}
