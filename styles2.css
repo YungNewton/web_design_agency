@@ -40,16 +40,14 @@ a{
         flex-wrap: wrap;
     }
 }
-/* @media screen and (max-height: 750px){
-    .ad{
-        flex-wrap: wrap;
-    }
-}
-@media screen and (max-height: 700px){
+@media(max-width: 645px){
     .beautiful, .construction{
         flex-wrap: wrap;
     }
     .betext, .ctext{
         margin: 0;
     }
-} */
+    /* .hero{
+        font-size: 30px;
+    } */
+}
