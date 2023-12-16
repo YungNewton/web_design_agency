@@ -14,10 +14,10 @@ body{
     width: 19rem;
     object-fit: cover;
 }
-.btext, .ctext{
+.betext, .ctext{
     display: flex;
     flex-direction: column;
-    margin-left: 10px;
+    margin-left: 2rem;
 }
 .ad{
     display: flex;
@@ -27,15 +27,29 @@ body{
 .beautiful, .construction{
     display: flex;
 }
-.bea{
-    margin-left: 10px;
-}
 .btext, .constext {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    display: inline-block;
 }
 a{
     text-decoration: none;
     display: flex;
     float: right; 
 }
+@media(max-width: 1105px){
+    .ad{
+        flex-wrap: wrap;
+    }
+}
+/* @media screen and (max-height: 750px){
+    .ad{
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-height: 700px){
+    .beautiful, .construction{
+        flex-wrap: wrap;
+    }
+    .betext, .ctext{
+        margin: 0;
+    }
+} */
