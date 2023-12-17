@@ -1,9 +1,32 @@
-.first, .second, .third{
-    background-color: aqua;
-    width: 100px;
-    height: 100px;
-}
 body{
+    font-family: 'Sono', sans-serif;
+}
+.card{
+    background-color: #F5F7F8;
     display: flex;
-    gap: 1rem;
+    flex-direction: column;
+    text-align: center;
+    min-width: 22rem;
+    height: 16rem;
+    border-radius: 2%;
+    justify-content: center;
+}
+.card > *{
+    margin: 6px;
+}
+.container{
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+}
+button{
+    background-color: #FF5B22;
+    width: 20%;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+h2{
+    font-weight: 1000;
 }
