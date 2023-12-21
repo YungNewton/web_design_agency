@@ -1,0 +1,9 @@
+.first, .second, .third{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    margin: 1rem;
+}
+body{
+    display: flex;
+}
